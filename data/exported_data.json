@@ -1,0 +1,1904 @@
+{
+  "mood_entries": [
+    {
+      "timestamp": "2025-03-10T12:52:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-03-10",
+      "emotions": [
+        "focused",
+        "contemplative"
+      ]
+    },
+    {
+      "timestamp": "2025-03-09T12:30:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-03-09",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-03-08T12:57:25.990236",
+      "mood_level": 8,
+      "notes": "Demo mood entry for 2025-03-08",
+      "emotions": [
+        "excited"
+      ]
+    },
+    {
+      "timestamp": "2025-03-07T12:58:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-03-07",
+      "emotions": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-03-08T12:18:25.990236",
+      "mood_level": 9,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-03-06T12:10:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-03-06",
+      "emotions": [
+        "contemplative"
+      ]
+    },
+    {
+      "timestamp": "2025-03-05T12:05:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-03-05",
+      "emotions": [
+        "neutral",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-03-04T12:37:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-03-04",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-03-05T12:38:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-03-03T12:17:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-03-03",
+      "emotions": [
+        "relaxed",
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-03-02T12:17:25.990236",
+      "mood_level": 9,
+      "notes": "Demo mood entry for 2025-03-02",
+      "emotions": [
+        "grateful"
+      ]
+    },
+    {
+      "timestamp": "2025-03-01T12:21:25.990236",
+      "mood_level": 9,
+      "notes": "Demo mood entry for 2025-03-01",
+      "emotions": [
+        "excited",
+        "grateful"
+      ]
+    },
+    {
+      "timestamp": "2025-03-02T12:41:25.990236",
+      "mood_level": 10,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-28T12:55:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-28",
+      "emotions": [
+        "contemplative",
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-02-27T12:22:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-27",
+      "emotions": [
+        "neutral",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-26T12:55:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-26",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-27T12:52:25.990236",
+      "mood_level": 9,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-25T12:42:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-25",
+      "emotions": [
+        "neutral",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-24T12:42:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-24",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-23T12:50:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-23",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-24T12:13:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-22T12:34:25.990236",
+      "mood_level": 9,
+      "notes": "Demo mood entry for 2025-02-22",
+      "emotions": [
+        "grateful",
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-21T12:10:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-21",
+      "emotions": [
+        "content",
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-20T12:27:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-20",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-21T12:59:25.990236",
+      "mood_level": 9,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-19T12:13:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-02-19",
+      "emotions": [
+        "contemplative",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-18T12:00:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-18",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-17T12:42:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-17",
+      "emotions": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-18T12:58:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-16T12:03:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-16",
+      "emotions": [
+        "calm"
+      ]
+    },
+    {
+      "timestamp": "2025-02-15T12:28:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-15",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-14T12:55:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-14",
+      "emotions": [
+        "relaxed",
+        "calm"
+      ]
+    },
+    {
+      "timestamp": "2025-02-15T12:52:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-13T12:03:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-13",
+      "emotions": [
+        "focused",
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-02-12T12:33:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-12",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-11T12:00:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-11",
+      "emotions": [
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-02-12T12:17:25.990236",
+      "mood_level": 7,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-10T12:16:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-02-10",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-09T12:15:25.990236",
+      "mood_level": 9,
+      "notes": "Demo mood entry for 2025-02-09",
+      "emotions": [
+        "excited"
+      ]
+    },
+    {
+      "timestamp": "2025-02-08T12:23:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-08",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-09T12:00:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-07T12:46:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-07",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-06T12:51:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-06",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-05T12:10:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-05",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-06T12:53:25.990236",
+      "mood_level": 9,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-04T12:40:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-02-04",
+      "emotions": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-02-03T12:11:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-02-03",
+      "emotions": [
+        "contemplative",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-02-02T12:01:25.990236",
+      "mood_level": 8,
+      "notes": "Demo mood entry for 2025-02-02",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-02-03T12:55:25.990236",
+      "mood_level": 10,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-02-01T12:09:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-02-01",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-01-31T12:55:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-31",
+      "emotions": [
+        "neutral",
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-01-30T12:55:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-30",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-01-31T12:18:25.990236",
+      "mood_level": 6,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-29T12:11:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-29",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-01-28T12:49:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-28",
+      "emotions": [
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-01-27T12:13:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-27",
+      "emotions": [
+        "contemplative"
+      ]
+    },
+    {
+      "timestamp": "2025-01-28T12:12:25.990236",
+      "mood_level": 6,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-26T12:09:25.990236",
+      "mood_level": 9,
+      "notes": "Demo mood entry for 2025-01-26",
+      "emotions": [
+        "excited"
+      ]
+    },
+    {
+      "timestamp": "2025-01-25T12:53:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-01-25",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-01-24T12:53:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-01-24",
+      "emotions": [
+        "focused",
+        "contemplative"
+      ]
+    },
+    {
+      "timestamp": "2025-01-25T12:13:25.990236",
+      "mood_level": 7,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-23T12:54:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-23",
+      "emotions": [
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-01-22T12:08:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-01-22",
+      "emotions": [
+        "contemplative",
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-01-21T12:58:25.990236",
+      "mood_level": 7,
+      "notes": "Demo mood entry for 2025-01-21",
+      "emotions": [
+        "content",
+        "calm"
+      ]
+    },
+    {
+      "timestamp": "2025-01-22T12:49:25.990236",
+      "mood_level": 9,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-20T12:14:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-20",
+      "emotions": [
+        "calm"
+      ]
+    },
+    {
+      "timestamp": "2025-01-19T12:07:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-19",
+      "emotions": [
+        "calm"
+      ]
+    },
+    {
+      "timestamp": "2025-01-18T12:44:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-18",
+      "emotions": [
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-01-19T12:54:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-17T12:16:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-17",
+      "emotions": [
+        "calm",
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-01-16T12:39:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-16",
+      "emotions": [
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-01-15T12:02:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-15",
+      "emotions": [
+        "focused",
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-01-16T12:16:25.990236",
+      "mood_level": 6,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-14T12:27:25.990236",
+      "mood_level": 4,
+      "notes": "Demo mood entry for 2025-01-14",
+      "emotions": [
+        "focused"
+      ]
+    },
+    {
+      "timestamp": "2025-01-13T12:47:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-01-13",
+      "emotions": [
+        "contemplative",
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-01-12T12:44:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-12",
+      "emotions": [
+        "calm",
+        "content"
+      ]
+    },
+    {
+      "timestamp": "2025-01-13T12:45:25.990236",
+      "mood_level": 8,
+      "notes": "Day after exercise",
+      "emotions": [
+        "energetic",
+        "positive"
+      ]
+    },
+    {
+      "timestamp": "2025-01-11T12:02:25.990236",
+      "mood_level": 6,
+      "notes": "Demo mood entry for 2025-01-11",
+      "emotions": [
+        "calm",
+        "relaxed"
+      ]
+    },
+    {
+      "timestamp": "2025-01-10T12:19:25.990236",
+      "mood_level": 5,
+      "notes": "Demo mood entry for 2025-01-10",
+      "emotions": [
+        "neutral"
+      ]
+    },
+    {
+      "timestamp": "2025-03-12T01:39:18.717342",
+      "mood_level": 5,
+      "notes": "I am intereseted in how this might workout. Could this be the thing that helps people. Or am a shity developer who knows the younger gens 13 yrs olds like my baby girl are really foucosed on this I can't spell but that is ok I have you ",
+      "emotions": [
+        "happy",
+        "calm"
+      ]
+    }
+  ],
+  "activity_entries": [
+    {
+      "timestamp": "2025-03-10T18:44:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 60,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-03-10T09:10:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 484,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-08T19:55:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 118,
+      "intensity": 2,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-03-07T18:39:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 45,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-03-07T09:27:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 446,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-06T09:05:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 540,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-05T09:04:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 441,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-04T18:15:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 49,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-03-04T09:01:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 511,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-03T09:23:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 533,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-03-01T18:09:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 40,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-03-01T19:18:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 139,
+      "intensity": 3,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-02-28T09:21:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 481,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-27T09:24:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 519,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-26T18:09:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 40,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-26T09:27:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 529,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-25T09:36:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 450,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-24T09:03:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 465,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-23T18:41:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 59,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-22T19:19:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 94,
+      "intensity": 4,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-02-21T09:53:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 476,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-20T18:41:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 44,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-20T09:43:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 489,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-19T09:55:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 490,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-18T09:44:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 439,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-17T18:02:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 40,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-17T09:01:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 485,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-15T19:05:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 104,
+      "intensity": 4,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-02-14T18:53:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 59,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-14T09:38:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 517,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-13T09:28:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 468,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-12T09:29:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 474,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-11T18:49:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 33,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-11T09:23:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 464,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-10T09:19:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 423,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-08T18:56:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 38,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-08T19:47:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 110,
+      "intensity": 4,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-02-07T09:50:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 466,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-06T09:06:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 524,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-05T18:12:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 34,
+      "intensity": 5,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-05T09:11:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 437,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-04T09:23:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 489,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-03T09:32:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 458,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-02-02T18:15:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 36,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-02-01T19:06:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 143,
+      "intensity": 4,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-01-31T09:08:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 540,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-30T18:38:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 60,
+      "intensity": 5,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-30T09:26:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 499,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-29T09:18:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 436,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-28T09:44:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 512,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-27T18:36:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 47,
+      "intensity": 5,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-27T09:42:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 447,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-25T19:12:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 97,
+      "intensity": 4,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-01-24T18:44:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 38,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-24T09:59:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 509,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-23T09:12:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 447,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-22T09:38:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 449,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-21T18:20:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 32,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-21T09:32:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 472,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-20T09:07:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 492,
+      "intensity": 4,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-18T18:29:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 36,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-18T19:04:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 102,
+      "intensity": 2,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-01-17T09:05:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 495,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-16T09:57:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 483,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-15T18:26:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 56,
+      "intensity": 4,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-15T09:38:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 513,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-14T09:23:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 489,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-13T09:52:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 499,
+      "intensity": 3,
+      "notes": "Demo work entry"
+    },
+    {
+      "timestamp": "2025-01-12T18:04:25.990236",
+      "activity_type": "exercise",
+      "duration_minutes": 30,
+      "intensity": 3,
+      "notes": "Demo exercise entry"
+    },
+    {
+      "timestamp": "2025-01-11T19:24:25.990236",
+      "activity_type": "social",
+      "duration_minutes": 93,
+      "intensity": 2,
+      "notes": "Demo social activity entry"
+    },
+    {
+      "timestamp": "2025-01-10T09:53:25.990236",
+      "activity_type": "work",
+      "duration_minutes": 477,
+      "intensity": 5,
+      "notes": "Demo work entry"
+    }
+  ],
+  "sleep_entries": [
+    {
+      "timestamp": "2025-03-10T17:25:25.991701",
+      "duration_hours": 6.6133964041545426,
+      "quality": 5,
+      "start_time": "2025-03-10T23:26:25.990236",
+      "end_time": "2025-03-11T07:26:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:25.993286",
+      "duration_hours": 7.70964231164647,
+      "quality": 7,
+      "start_time": "2025-03-09T23:15:25.990236",
+      "end_time": "2025-03-10T07:23:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:25.994744",
+      "duration_hours": 8.171972813098836,
+      "quality": 7,
+      "start_time": "2025-03-08T23:34:25.990236",
+      "end_time": "2025-03-09T07:15:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:25.998085",
+      "duration_hours": 6.088897313765278,
+      "quality": 5,
+      "start_time": "2025-03-07T23:33:25.990236",
+      "end_time": "2025-03-08T07:59:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:25.999855",
+      "duration_hours": 6.604171333452363,
+      "quality": 5,
+      "start_time": "2025-03-06T23:07:25.990236",
+      "end_time": "2025-03-07T07:18:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.002637",
+      "duration_hours": 6.005270878034788,
+      "quality": 5,
+      "start_time": "2025-03-05T23:22:25.990236",
+      "end_time": "2025-03-06T07:58:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.006269",
+      "duration_hours": 6.819440539327712,
+      "quality": 5,
+      "start_time": "2025-03-04T23:27:25.990236",
+      "end_time": "2025-03-05T07:10:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.009129",
+      "duration_hours": 6.121177949402149,
+      "quality": 5,
+      "start_time": "2025-03-03T23:04:25.990236",
+      "end_time": "2025-03-04T07:41:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.010564",
+      "duration_hours": 8.335720371059617,
+      "quality": 7,
+      "start_time": "2025-03-02T23:43:25.990236",
+      "end_time": "2025-03-03T07:27:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.015346",
+      "duration_hours": 8.202100257968246,
+      "quality": 7,
+      "start_time": "2025-03-01T23:12:25.990236",
+      "end_time": "2025-03-02T07:20:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.017800",
+      "duration_hours": 6.3905890138289685,
+      "quality": 5,
+      "start_time": "2025-02-28T23:34:25.990236",
+      "end_time": "2025-03-01T07:26:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.021292",
+      "duration_hours": 6.486891824366748,
+      "quality": 5,
+      "start_time": "2025-02-27T23:13:25.990236",
+      "end_time": "2025-02-28T07:23:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.025870",
+      "duration_hours": 6.0803725423560016,
+      "quality": 5,
+      "start_time": "2025-02-26T23:46:25.990236",
+      "end_time": "2025-02-27T07:25:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.029578",
+      "duration_hours": 6.584355563129095,
+      "quality": 5,
+      "start_time": "2025-02-25T23:48:25.990236",
+      "end_time": "2025-02-26T07:43:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.032477",
+      "duration_hours": 6.511801053687333,
+      "quality": 5,
+      "start_time": "2025-02-24T23:35:25.990236",
+      "end_time": "2025-02-25T07:55:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.037946",
+      "duration_hours": 8.17898328199604,
+      "quality": 7,
+      "start_time": "2025-02-23T23:28:25.990236",
+      "end_time": "2025-02-24T07:03:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.041713",
+      "duration_hours": 7.879169698355109,
+      "quality": 7,
+      "start_time": "2025-02-22T23:04:25.990236",
+      "end_time": "2025-02-23T07:01:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.046489",
+      "duration_hours": 6.131964417619787,
+      "quality": 5,
+      "start_time": "2025-02-21T23:47:25.990236",
+      "end_time": "2025-02-22T07:10:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.053064",
+      "duration_hours": 6.498630223618614,
+      "quality": 5,
+      "start_time": "2025-02-20T23:39:25.990236",
+      "end_time": "2025-02-21T07:55:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.057825",
+      "duration_hours": 6.878785063214233,
+      "quality": 5,
+      "start_time": "2025-02-19T23:49:25.990236",
+      "end_time": "2025-02-20T07:55:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.061506",
+      "duration_hours": 6.657483486104625,
+      "quality": 5,
+      "start_time": "2025-02-18T23:28:25.990236",
+      "end_time": "2025-02-19T07:16:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.069023",
+      "duration_hours": 6.152250301447817,
+      "quality": 5,
+      "start_time": "2025-02-17T23:53:25.990236",
+      "end_time": "2025-02-18T07:05:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.071593",
+      "duration_hours": 8.343279419871488,
+      "quality": 7,
+      "start_time": "2025-02-16T23:19:25.990236",
+      "end_time": "2025-02-17T07:41:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.076854",
+      "duration_hours": 7.841906903859666,
+      "quality": 7,
+      "start_time": "2025-02-15T23:16:25.990236",
+      "end_time": "2025-02-16T07:12:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.083903",
+      "duration_hours": 6.037844501332373,
+      "quality": 5,
+      "start_time": "2025-02-14T23:10:25.990236",
+      "end_time": "2025-02-15T07:49:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.089535",
+      "duration_hours": 6.442623279281823,
+      "quality": 5,
+      "start_time": "2025-02-13T23:48:25.990236",
+      "end_time": "2025-02-14T07:11:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.094117",
+      "duration_hours": 6.729920197186114,
+      "quality": 5,
+      "start_time": "2025-02-12T23:14:25.990236",
+      "end_time": "2025-02-13T07:47:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.103330",
+      "duration_hours": 6.884818767084929,
+      "quality": 5,
+      "start_time": "2025-02-11T23:11:25.990236",
+      "end_time": "2025-02-12T07:12:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.108153",
+      "duration_hours": 6.643529682588368,
+      "quality": 5,
+      "start_time": "2025-02-10T23:47:25.990236",
+      "end_time": "2025-02-11T07:32:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.113052",
+      "duration_hours": 7.730841672349053,
+      "quality": 7,
+      "start_time": "2025-02-09T23:02:25.990236",
+      "end_time": "2025-02-10T07:03:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.121339",
+      "duration_hours": 7.58027908597295,
+      "quality": 7,
+      "start_time": "2025-02-08T23:52:25.990236",
+      "end_time": "2025-02-09T07:11:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.128184",
+      "duration_hours": 6.129087074196005,
+      "quality": 5,
+      "start_time": "2025-02-07T23:15:25.990236",
+      "end_time": "2025-02-08T07:44:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.133309",
+      "duration_hours": 6.239277083945227,
+      "quality": 5,
+      "start_time": "2025-02-06T23:35:25.990236",
+      "end_time": "2025-02-07T07:26:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.144182",
+      "duration_hours": 6.679127923859484,
+      "quality": 5,
+      "start_time": "2025-02-05T23:55:25.990236",
+      "end_time": "2025-02-06T07:48:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.149495",
+      "duration_hours": 6.428295617780645,
+      "quality": 5,
+      "start_time": "2025-02-04T23:05:25.990236",
+      "end_time": "2025-02-05T07:36:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.156991",
+      "duration_hours": 6.4195263198914425,
+      "quality": 5,
+      "start_time": "2025-02-03T23:04:25.990236",
+      "end_time": "2025-02-04T07:31:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.164499",
+      "duration_hours": 8.40889297353429,
+      "quality": 7,
+      "start_time": "2025-02-02T23:20:25.990236",
+      "end_time": "2025-02-03T07:16:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.172738",
+      "duration_hours": 8.181554876774323,
+      "quality": 7,
+      "start_time": "2025-02-01T23:11:25.990236",
+      "end_time": "2025-02-02T07:57:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.178656",
+      "duration_hours": 6.95706222432173,
+      "quality": 5,
+      "start_time": "2025-01-31T23:44:25.990236",
+      "end_time": "2025-02-01T07:05:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.190973",
+      "duration_hours": 6.4299460017391095,
+      "quality": 5,
+      "start_time": "2025-01-30T23:30:25.990236",
+      "end_time": "2025-01-31T07:03:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.197435",
+      "duration_hours": 6.2528373990463155,
+      "quality": 5,
+      "start_time": "2025-01-29T23:54:25.990236",
+      "end_time": "2025-01-30T07:20:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.206049",
+      "duration_hours": 6.566254249482428,
+      "quality": 5,
+      "start_time": "2025-01-28T23:31:25.990236",
+      "end_time": "2025-01-29T07:47:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.217189",
+      "duration_hours": 6.388688943645524,
+      "quality": 5,
+      "start_time": "2025-01-27T23:56:25.990236",
+      "end_time": "2025-01-28T07:55:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.223997",
+      "duration_hours": 8.4570018012558,
+      "quality": 7,
+      "start_time": "2025-01-26T23:09:25.990236",
+      "end_time": "2025-01-27T07:22:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.230625",
+      "duration_hours": 7.830445893935059,
+      "quality": 7,
+      "start_time": "2025-01-25T23:40:25.990236",
+      "end_time": "2025-01-26T07:52:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.244366",
+      "duration_hours": 6.127007764647879,
+      "quality": 5,
+      "start_time": "2025-01-24T23:28:25.990236",
+      "end_time": "2025-01-25T07:24:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.251478",
+      "duration_hours": 6.336533486567033,
+      "quality": 5,
+      "start_time": "2025-01-23T23:21:25.990236",
+      "end_time": "2025-01-24T07:57:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.261031",
+      "duration_hours": 6.679414869251939,
+      "quality": 5,
+      "start_time": "2025-01-22T23:25:25.990236",
+      "end_time": "2025-01-23T07:13:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.273096",
+      "duration_hours": 6.939757142129756,
+      "quality": 5,
+      "start_time": "2025-01-21T23:39:25.990236",
+      "end_time": "2025-01-22T07:21:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.282879",
+      "duration_hours": 6.260810385620408,
+      "quality": 5,
+      "start_time": "2025-01-20T23:51:25.990236",
+      "end_time": "2025-01-21T07:37:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.287857",
+      "duration_hours": 8.021665345801544,
+      "quality": 7,
+      "start_time": "2025-01-19T23:51:25.990236",
+      "end_time": "2025-01-20T07:53:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.302898",
+      "duration_hours": 8.020148340109078,
+      "quality": 7,
+      "start_time": "2025-01-18T23:10:25.990236",
+      "end_time": "2025-01-19T07:06:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.310756",
+      "duration_hours": 6.298975321689321,
+      "quality": 5,
+      "start_time": "2025-01-17T23:16:25.990236",
+      "end_time": "2025-01-18T07:40:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.321121",
+      "duration_hours": 6.349672857152867,
+      "quality": 5,
+      "start_time": "2025-01-16T23:13:25.990236",
+      "end_time": "2025-01-17T07:23:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.334179",
+      "duration_hours": 6.07397050923681,
+      "quality": 5,
+      "start_time": "2025-01-15T23:25:25.990236",
+      "end_time": "2025-01-16T07:47:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.344841",
+      "duration_hours": 6.333005958388394,
+      "quality": 5,
+      "start_time": "2025-01-14T23:36:25.990236",
+      "end_time": "2025-01-15T07:01:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.352973",
+      "duration_hours": 6.149205585841145,
+      "quality": 5,
+      "start_time": "2025-01-13T23:15:25.990236",
+      "end_time": "2025-01-14T07:37:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.366818",
+      "duration_hours": 7.9032208539399855,
+      "quality": 7,
+      "start_time": "2025-01-12T23:48:25.990236",
+      "end_time": "2025-01-13T07:57:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.375349",
+      "duration_hours": 8.299361967764042,
+      "quality": 7,
+      "start_time": "2025-01-11T23:31:25.990236",
+      "end_time": "2025-01-12T07:40:25.990236",
+      "notes": "Demo sleep record"
+    },
+    {
+      "timestamp": "2025-03-10T17:25:26.386814",
+      "duration_hours": 6.972192770069421,
+      "quality": 5,
+      "start_time": "2025-01-10T23:52:25.990236",
+      "end_time": "2025-01-11T07:06:25.990236",
+      "notes": "Demo sleep record"
+    }
+  ],
+  "medication_entries": [
+    {
+      "timestamp": "2025-03-10T08:53:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": false,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-03-08T08:07:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-03-06T08:44:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-03-04T08:53:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": false,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-03-02T08:20:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-28T08:12:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": false,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-26T08:17:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-24T08:36:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-22T08:23:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-20T08:36:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-18T08:41:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-16T08:31:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-14T08:36:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": false,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-12T08:43:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-10T08:21:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-08T08:52:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-06T08:58:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-04T08:36:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-02-02T08:39:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-31T08:05:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-29T08:19:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-27T08:30:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-25T08:29:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-23T08:54:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-21T08:40:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-19T08:03:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-17T08:10:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-15T08:36:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-13T08:30:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    },
+    {
+      "timestamp": "2025-01-11T08:05:25.990236",
+      "medication_name": "Demo Medication",
+      "dosage": "10mg",
+      "taken": true,
+      "notes": "Demo medication entry"
+    }
+  ],
+  "custom_entries": [],
+  "user_settings": {
+    "tracking_categories": [
+      "mood",
+      "activities",
+      "sleep"
+    ],
+    "mood_scale": {
+      "min": 1,
+      "max": 10,
+      "labels": {
+        "1": "Very Poor",
+        "5": "Neutral",
+        "10": "Excellent"
+      }
+    },
+    "notification_preferences": {
+      "enabled": true,
+      "frequency": "daily",
+      "time": "20:00"
+    }
+  }
+}
