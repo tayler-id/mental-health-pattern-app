@@ -1,0 +1,22 @@
+{
+  "name": "mental-health-mobile",
+  "version": "1.0.0",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "expo start",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "expo": "^52.0.0",
+    "express": "^4.21.2",
+    "python-shell": "^5.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.1",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-sound": "^0.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}

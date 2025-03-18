@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mental Health Pattern Recognition Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 { color: #2c3e50; margin-bottom: 20px; }
+    #points { color: #3498db; font-size: 18px; }
+    #streak-bar {
+      width: 300px;
+      height: 20px;
+      background: #ddd;
+      margin: 20px auto;
+      position: relative;
+    }
+    #streak-fill {
+      height: 100%;
+      background: #2ecc71;
+      width: 0;
+      transition: width 0.5s;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover { background: #2980b9; }
+  </style>
+</head>
+<body>
+  <h1>Mental Health Pattern Recognition Assistant</h1>
+  <p id="points">Points: 0</p>
+  <div id="streak-bar"><div id="streak-fill"></div></div>
+  <button onclick="recordMood()">Record Mood</button>
+  <script>
+    const { exec } = require('child_process');
+    let points = 0;
+    let streak = 0;
+
+    function recordMood() {
+      console.log('recordMood called');
+      alert('Attempting to run Python...');
+      exec("python --version", (err, stdout, stderr) => {
+        if (!err) {
+          alert('Python works! Version: ' + stdout);
+          exec("cd d:/mental_health_pattern_app && python -c \"from src.data_collection import DataCollector; collector = DataCollector('data'); collector.record_mood(7, 'Sample mood')\"", (err) => {
+            if (!err) {
+              points += 10;
+              document.getElementById('points').textContent = `Points: ${points}`;
+              streak = Math.min(streak + 1, 7);
+              const fill = document.getElementById('streak-fill');
+              fill.style.width = `${(streak / 7) * 100}%`;
+              alert('Mood recorded successfully!');
+            } else {
+              console.error('Error recording mood:', err);
+              alert('Failed to record mood: ' + err.message);
+            }
+          });
+        } else {
+          console.error('Python error:', err, stderr);
+          alert('Python failed: ' + (err ? err.message : stderr));
+        }
+      });
+    }
+  </script>
+</body>
+</html>

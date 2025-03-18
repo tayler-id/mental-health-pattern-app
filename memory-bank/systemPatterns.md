@@ -224,5 +224,40 @@ The system is designed with several extension points for future development:
    - Custom visualization themes can be implemented
 
 4. **User Interface Enhancements**
-   - The command-line interface could be supplemented or replaced with a GUI
+   - A basic GUI prototype has been implemented using Tkinter
+   - The GUI follows a similar component structure to the CLI
    - Web or mobile interfaces could be added while reusing core components
+   - The modular architecture allows multiple UI types to coexist
+
+## GUI Architecture
+
+The graphical user interface follows a simple architecture:
+
+```mermaid
+flowchart TD
+    App[MentalHealthApp] --> Dashboard[Dashboard Tab]
+    App --> DataEntry[Data Entry Tab]
+    App --> ViewData[View Data Tab]
+    App --> Analysis[Analysis Tab]
+    App --> Visualization[Visualization Tab]
+    App --> Insights[Insights Tab]
+    App --> Settings[Settings Tab]
+    
+    DataEntry --> MoodEntry[Mood Entry]
+    DataEntry --> ActivityEntry[Activity Entry]
+    DataEntry --> SleepEntry[Sleep Entry]
+    DataEntry --> MedicationEntry[Medication Entry]
+    DataEntry --> CustomEntry[Custom Entry]
+    
+    ViewData --> MoodView[Mood View]
+    ViewData --> ActivityView[Activity View]
+    ViewData --> SleepView[Sleep View]
+    ViewData --> MedicationView[Medication View]
+    ViewData --> CustomView[Custom View]
+```
+
+The GUI implementation:
+- Uses Tkinter for cross-platform compatibility
+- Follows a tabbed interface design for intuitive navigation
+- Maintains separation of concerns with the core components
+- Provides a launcher script (run_gui.py) for easy access

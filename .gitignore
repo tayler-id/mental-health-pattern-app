@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+# Node 
+node_modules
 # Distribution / packaging
 .Python
 build/
@@ -68,4 +69,10 @@ venv.bak/
 
 # Project specific
 data/user_data.json
-visualization/*.png
+data/exports/
+visualization/**/*.png
+!visualization/examples/*.png
+
+# OS specific
+.DS_Store
+Thumbs.db
