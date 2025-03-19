@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Tracker - Web Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+    .points {
+      color: #3498db;
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .streak-bar {
+      width: 100%;
+      height: 20px;
+      background: #ddd;
+      margin: 20px auto;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .streak-fill {
+      height: 100%;
+      background: #2ecc71;
+      width: 0;
+      transition: width 0.5s;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+    }
+    .button:hover {
+      background: #2980b9;
+    }
+    .button:disabled {
+      background: #95a5a6;
+      cursor: not-allowed;
+    }
+    .input-group {
+      margin: 15px 0;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .slider {
+      width: 100%;
+    }
+    .emotion-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 15px 0;
+    }
+    .emotion-button {
+      padding: 10px 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .emotion-button.selected {
+      background-color: #2ecc71;
+      color: white;
+    }
+    .server-url {
+      background: #eee;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+      position: relative;
+    }
+    .error {
+      color: #e74c3c;
+      background: #ffebee;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      border: 1px solid #e74c3c;
+    }
+    .success {
+      color: #27ae60;
+      background: #e7f9ef;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 10px 0;
+      border: 1px solid #27ae60;
+    }
+    .hidden {
+      display: none;
+    }
+    .menu-screen, .mood-entry-screen, .settings-screen {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Mental Health Tracker</h1>
+  
+  <!-- Menu Screen -->
+  <div id="menu-screen" class="menu-screen active">
+    <p id="points" class="points">Points: 0</p>
+    <div class="streak-bar">
+      <div id="streak-fill" class="streak-fill"></div>
+    </div>
+    <div class="container">
+      <h2>Main Menu</h2>
+      <button class="button" onclick="showScreen('mood-entry-screen')">1. Data Entry</button>
+      <button class="button" onclick="alert('View Data TBD')">2. View Data</button>
+      <button class="button" onclick="alert('Analysis TBD')">3. Analysis</button>
+      <button class="button" onclick="alert('Visualizations TBD')">4. Visualizations</button>
+      <button class="button" onclick="alert('Insights TBD')">5. Insights</button>
+      <button class="button" onclick="showScreen('settings-screen')">6. Settings</button>
+      <button class="button" onclick="alert('App closed (not really)')">7. Exit</button>
+    </div>
+  </div>
+  
+  <!-- Mood Entry Screen -->
+  <div id="mood-entry-screen" class="mood-entry-screen">
+    <div class="container">
+      <h2>Record Mood</h2>
+      <div class="input-group">
+        <label for="mood-level">Mood Level: <span id="mood-value">5</span></label>
+        <input type="range" id="mood-level" class="slider" min="1" max="10" value="5" onchange="updateMoodValue(this.value)">
+      </div>
+      
+      <div class="input-group">
+        <label for="notes">Notes:</label>
+        <textarea id="notes" rows="3" placeholder="How are you feeling today?"></textarea>
+      </div>
+      
+      <div class="input-group">
+        <label>Emotions:</label>
+        <div class="emotion-container">
+          <div class="emotion-button" onclick="toggleEmotion(this, 'happy')">Happy</div>
+          <div class="emotion-button" onclick="toggleEmotion(this, 'sad')">Sad</div>
+          <div class="emotion-button" onclick="toggleEmotion(this, 'calm')">Calm</div>
+        </div>
+      </div>
+      
+      <div id="error-message" class="error hidden"></div>
+      <div id="success-message" class="success hidden"></div>
+      
+      <button id="submit-button" class="button" onclick="recordMood()">Submit</button>
+      <button class="button" onclick="showScreen('menu-screen')">Cancel</button>
+    </div>
+  </div>
+  
+  <!-- Settings Screen -->
+  <div id="settings-screen" class="settings-screen">
+    <div class="container">
+      <h2>Server Configuration</h2>
+      <p>Enter your server URL for API communication.</p>
+      
+      <div class="input-group">
+        <label for="server-url">Server URL:</label>
+        <input type="text" id="server-url" placeholder="http://localhost:3000/record-mood">
+      </div>
+      
+      <div class="server-url">
+        <p><strong>Example formats:</strong></p>
+        <ul>
+          <li>For local testing: <code>http://localhost:3000/record-mood</code></li>
+          <li>Using your computer's IP: <code>http://10.0.0.100:3000/record-mood</code></li>
+        </ul>
+      </div>
+      
+      <button class="button" onclick="saveServerUrl()">Save</button>
+      <button class="button" onclick="showScreen('menu-screen')">Cancel</button>
+    </div>
+  </div>
+
+  <script>
+    // State management
+    let points = 0;
+    let streak = 0;
+    let selectedEmotions = [];
+    let serverUrl = localStorage.getItem('serverUrl') || 'http://localhost:3000/record-mood';
+    let isLoading = false;
+    
+    // Initialize on page load
+    window.onload = function() {
+      // Set the saved server URL in the input field
+      document.getElementById('server-url').value = serverUrl;
+      
+      // If no server URL is saved, show settings screen
+      if (!localStorage.getItem('serverUrl')) {
+        showScreen('settings-screen');
+      }
+    };
+    
+    // Screen management
+    function showScreen(screenId) {
+      // Hide all screens
+      document.getElementById('menu-screen').classList.remove('active');
+      document.getElementById('mood-entry-screen').classList.remove('active');
+      document.getElementById('settings-screen').classList.remove('active');
+      
+      // Show selected screen
+      document.getElementById(screenId).classList.add('active');
+      
+      // Clear error and success messages when changing screens
+      document.getElementById('error-message').classList.add('hidden');
+      document.getElementById('success-message').classList.add('hidden');
+    }
+    
+    // Update mood value display
+    function updateMoodValue(value) {
+      document.getElementById('mood-value').textContent = value;
+    }
+    
+    // Toggle emotion selection
+    function toggleEmotion(element, emotion) {
+      element.classList.toggle('selected');
+      
+      if (element.classList.contains('selected')) {
+        // Add emotion if not already in the array
+        if (!selectedEmotions.includes(emotion)) {
+          selectedEmotions.push(emotion);
+        }
+      } else {
+        // Remove emotion from the array
+        selectedEmotions = selectedEmotions.filter(e => e !== emotion);
+      }
+    }
+    
+    // Save server URL
+    function saveServerUrl() {
+      const newUrl = document.getElementById('server-url').value.trim();
+      
+      if (newUrl) {
+        serverUrl = newUrl;
+        localStorage.setItem('serverUrl', newUrl);
+        alert('Server URL saved: ' + newUrl);
+        showScreen('menu-screen');
+      } else {
+        alert('Please enter a valid server URL');
+      }
+    }
+    
+    // Record mood
+    async function recordMood() {
+      // Get values from form
+      const moodLevel = parseInt(document.getElementById('mood-level').value);
+      const notes = document.getElementById('notes').value;
+      
+      // Show error if no server URL
+      if (!serverUrl) {
+        showError('Server URL not configured. Please go to Settings to configure it.');
+        return;
+      }
+      
+      // Set loading state
+      isLoading = true;
+      const submitButton = document.getElementById('submit-button');
+      submitButton.disabled = true;
+      submitButton.textContent = 'Submitting...';
+      
+      // Clear previous messages
+      document.getElementById('error-message').classList.add('hidden');
+      document.getElementById('success-message').classList.add('hidden');
+      
+      try {
+        // Make API request
+        const response = await fetch(serverUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            mood_level: moodLevel,
+            notes: notes,
+            emotions: selectedEmotions,
+            streak: streak
+          })
+        });
+        
+        // Parse response
+        const data = await response.json();
+        
+        // Check for success
+        if (data.success) {
+          // Update points and streak
+          points += 10;
+          streak = data.streak;
+          
+          // Update UI
+          document.getElementById('points').textContent = `Points: ${points}`;
+          document.getElementById('streak-fill').style.width = `${(streak / 7) * 100}%`;
+          
+          // Show success message
+          showSuccess('Mood recorded successfully!');
+          
+          // Reset form
+          document.getElementById('mood-level').value = 5;
+          document.getElementById('notes').value = '';
+          updateMoodValue(5);
+          
+          // Reset selected emotions
+          selectedEmotions = [];
+          const emotionButtons = document.querySelectorAll('.emotion-button');
+          emotionButtons.forEach(button => {
+            button.classList.remove('selected');
+          });
+          
+          // Return to menu after short delay
+          setTimeout(() => {
+            showScreen('menu-screen');
+          }, 1500);
+        } else {
+          // Show error message
+          showError(data.error || 'Unknown error occurred');
+        }
+      } catch (err) {
+        // Handle network errors
+        let errorMessage = 'An unexpected error occurred';
+        
+        if (err.name === 'TypeError' && err.message.includes('Failed to fetch')) {
+          errorMessage = `Network connection failed. Make sure the server is running at ${serverUrl}`;
+        } else {
+          errorMessage = `Error: ${err.message}`;
+        }
+        
+        showError(errorMessage);
+      } finally {
+        // Reset loading state
+        isLoading = false;
+        submitButton.disabled = false;
+        submitButton.textContent = 'Submit';
+      }
+    }
+    
+    // Show error message
+    function showError(message) {
+      const errorElement = document.getElementById('error-message');
+      errorElement.textContent = message;
+      errorElement.classList.remove('hidden');
+    }
+    
+    // Show success message
+    function showSuccess(message) {
+      const successElement = document.getElementById('success-message');
+      successElement.textContent = message;
+      successElement.classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>

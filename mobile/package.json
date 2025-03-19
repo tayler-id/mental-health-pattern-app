@@ -7,6 +7,8 @@
     "server": "node server/index.js"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.12",
+    "@react-native-community/netinfo": "^10.0.0",
     "expo": "^52.0.0",
     "express": "^4.21.2",
     "python-shell": "^5.0.0",
