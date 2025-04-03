@@ -1,5 +1,8 @@
 # Mental Health Pattern Recognition Assistant
 
+[![Enhanced UI Version](https://img.shields.io/badge/Enhanced%20UI-Available-brightgreen)]()
+[![Mobile Demo](https://img.shields.io/badge/Mobile%20Demo-Available-blue)]()
+
 <div align="center">
 
 ![Mental Health Pattern Recognition Assistant Logo](https://via.placeholder.com/150)
@@ -162,22 +165,60 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
+## Enhanced UI Version
+
+The project now includes an enhanced web-based UI with interactive features:
+
+- **Interactive Animations**: Smooth transitions and micro-interactions for improved user experience
+- **Audio Feedback**: Sound effects and voice announcements provide multi-sensory feedback
+- **Gamification Elements**: Points system and streak tracking with visual celebrations
+- **Responsive Design**: Works across desktop and mobile devices
+
+### Running the Enhanced UI
+
+To run the enhanced web version:
+
+1. Navigate to the `web` directory
+2. Run the demo script:
+   ```bash
+   # On Windows
+   run-demo.bat
+   
+   # On macOS/Linux
+   ./run-demo.sh
+   ```
+
+This will start both the backend server and the React web application.
+
+For more details about the enhanced UI, see the [enhanced-ui.md](web/docs/enhanced-ui.md) documentation.
+
+## Mobile Demo
+
+A mobile demo application has been developed to provide on-the-go access:
+
+- **React Native Implementation**: Built with React Native and Expo
+- **Cross-Platform**: Works on iOS and Android
+- **Core Functionality**: Provides mood tracking with a gamified experience
+
 ## Roadmap
 
-- **Short-term**
-  - Enhanced command-line interface
-  - Improved visualization aesthetics
-  - Additional analysis algorithms
+- **Short-term** ✓
+  - ✓ Enhanced command-line interface
+  - ✓ Improved visualization aesthetics
+  - ✓ Web-based interface
+  - ✓ Mobile demo application
 
 - **Medium-term**
-  - Simple web-based interface
+  - Full-featured mobile application
   - Data export in multiple formats
   - Integration with common health tracking apps
+  - Enhanced audio and animation features
 
 - **Long-term**
-  - Mobile application
   - Machine learning enhancements
   - Integration with wearable devices
+  - Voice-driven interaction
+  - Expanded visualization options
 
 ## License
 

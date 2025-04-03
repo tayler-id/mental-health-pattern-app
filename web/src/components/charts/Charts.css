@@ -1,0 +1,29 @@
+.chart-wrapper {
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.chart-empty {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--neutral-50);
+  border-radius: 8px;
+  border: 1px dashed var(--neutral-300);
+}
+
+.chart-empty p {
+  color: var(--neutral-500);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chart-wrapper {
+    height: 250px;
+  }
+}

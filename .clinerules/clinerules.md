@@ -1,3 +1,4 @@
+
 # Mental Health Pattern Recognition Assistant - Project Rules
 
 ## Code Organization Patterns
