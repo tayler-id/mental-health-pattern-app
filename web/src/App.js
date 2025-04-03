@@ -1,116 +1,169 @@
 import React, { useState, useEffect } from 'react';
-import { useAudioManager } from './hooks/useAudioManager';
-import MainMenu from './components/MainMenu';
-import MoodEntry from './components/MoodEntry';
+import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHome,
+  faPlusCircle,
+  faChartLine,
+  faSearch,
+  faLightbulb,
+  faCog,
+  faHistory,
+  faBrain
+} from '@fortawesome/free-solid-svg-icons';
+
+// Import styles
+import './App.css';
+import './styles/theme.css';
+
+// Import components
+import Dashboard from './components/Dashboard';
+import MoodEntryForm from './components/MoodEntryForm';
+import MoodHistory from './components/MoodHistory';
+import ActivityEntryForm from './components/ActivityEntryForm';
+import SleepEntryForm from './components/SleepEntryForm';
+import AnalysisPanel from './components/AnalysisPanel';
+import VisualizationsPanel from './components/VisualizationsPanel';
+import InsightsPanel from './components/InsightsPanel';
+import SettingsPanel from './components/SettingsPanel';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-const App = () => {
-  // State for user data and application state
-  const [currentScreen, setCurrentScreen] = useState('main-menu');
-  const [points, setPoints] = useState(0);
-  const [streak, setStreak] = useState(0);
-  const [serverUrl, setServerUrl] = useState('http://localhost:3001/record-mood');
-  
-  // Initialize audio manager
-  const audioManager = useAudioManager();
-  
-  // Preload sounds on component mount
-  useEffect(() => {
-    audioManager.preloadSounds();
-  }, []);
-  
-  // Calculate streak bar width as a percentage (max 7 days)
-  const streakPercentage = Math.min((streak / 7) * 100, 100);
-  
-  // Handle menu navigation with sound effects
-  const navigateTo = (screen) => {
-    audioManager.playSound('click');
-    setCurrentScreen(screen);
-  };
-  
-  // Handle successful record completion
-  const handleRecordSuccess = (data) => {
-    // Update points (10 points per entry)
-    setPoints(prevPoints => prevPoints + 10);
-    
-    // Update streak
-    setStreak(data.streak);
-    
-    // Play success sound
-    audioManager.playSound('success');
-    
-    // Return to menu
-    setTimeout(() => navigateTo('main-menu'), 1500);
-  };
-  
-  // Render appropriate screen based on current state
-  const renderScreen = () => {
-    switch (currentScreen) {
-      case 'mood-entry':
-        return (
-          <MoodEntry 
-            onCancel={() => navigateTo('main-menu')}
-            onSuccess={handleRecordSuccess}
-            audioManager={audioManager}
-            serverUrl={serverUrl}
-            currentStreak={streak}
-          />
-        );
-      
-      case 'settings':
-        return (
-          <div className="card animate-fade-in">
-            <h2>Settings</h2>
-            <div className="form-group">
-              <label className="form-label" htmlFor="server-url">Server URL</label>
-              <input
-                id="server-url"
-                type="text"
-                className="form-control"
-                value={serverUrl}
-                onChange={(e) => setServerUrl(e.target.value)}
-                placeholder="http://localhost:3001/record-mood"
-              />
-            </div>
-            <div className="form-group">
-              <label className="form-label">
-                <input
-                  type="checkbox"
-                  checked={!audioManager.isMuted()}
-                  onChange={() => audioManager.toggleMute()}
-                /> 
-                Enable Sound Effects
-              </label>
-            </div>
-            <button className="btn btn-primary" onClick={() => navigateTo('main-menu')}>Save and Close</button>
-          </div>
-        );
-      
-      case 'main-menu':
-      default:
-        return (
-          <MainMenu 
-            onNavigate={navigateTo} 
-            audioManager={audioManager}
-          />
-        );
-    }
-  };
-  
+// Import context
+import { AppProvider } from './context/AppContext';
+
+// Section component with animations
+const Section = ({ title, children }) => {
   return (
-    <div className="container">
-      <Header 
-        points={points} 
-        streak={streak} 
-        streakPercentage={streakPercentage} 
-      />
-      <main className="app-content">
-        {renderScreen()}
-      </main>
+    <motion.div
+      className="section"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.3 }}
+    >
+      <h2 className="section-title">{title}</h2>
+      <div className="section-content">
+        {children}
+      </div>
+    </motion.div>
+  );
+};
+
+// Navigation item component
+const NavItem = ({ to, icon, label }) => {
+  const location = useLocation();
+  const isActive = location.pathname === to;
+
+  return (
+    <li className={isActive ? 'active' : ''}>
+      <Link to={to}>
+        <FontAwesomeIcon icon={icon} />
+        <span>{label}</span>
+        {isActive && (
+          <motion.div
+            className="nav-indicator"
+            layoutId="nav-indicator"
+            transition={{ type: 'spring', duration: 0.5 }}
+          />
+        )}
+      </Link>
+    </li>
+  );
+};
+
+function AppContent() {
+  const location = useLocation();
+
+  return (
+    <div className="app-container">
+      <Header />
+
+      <div className="app-content">
+        <aside className="sidebar">
+          <div className="sidebar-header">
+            <h3>Mental Health Pattern Assistant</h3>
+          </div>
+          <nav>
+            <ul>
+              <NavItem to="/" icon={faHome} label="Dashboard" />
+              <NavItem to="/data-entry" icon={faPlusCircle} label="Data Entry" />
+              <NavItem to="/view-data" icon={faHistory} label="View Data" />
+              <NavItem to="/analysis" icon={faBrain} label="Analysis" />
+              <NavItem to="/visualizations" icon={faChartLine} label="Visualizations" />
+              <NavItem to="/insights" icon={faLightbulb} label="Insights" />
+              <NavItem to="/settings" icon={faCog} label="Settings" />
+            </ul>
+          </nav>
+        </aside>
+
+        <main className="main-content">
+          <AnimatePresence mode="wait">
+            <Routes location={location} key={location.pathname}>
+              <Route path="/" element={
+                <Section title="Dashboard">
+                  <Dashboard />
+                </Section>
+              } />
+
+              <Route path="/data-entry" element={
+                <Section title="Data Entry">
+                  <div className="entry-forms">
+                    <MoodEntryForm />
+                    <ActivityEntryForm />
+                    <SleepEntryForm />
+                  </div>
+                </Section>
+              } />
+
+              <Route path="/view-data" element={
+                <Section title="View Data">
+                  <MoodHistory />
+                </Section>
+              } />
+
+              <Route path="/analysis" element={
+                <Section title="Analysis">
+                  <AnalysisPanel />
+                </Section>
+              } />
+
+              <Route path="/visualizations" element={
+                <Section title="Visualizations">
+                  <VisualizationsPanel />
+                </Section>
+              } />
+
+              <Route path="/insights" element={
+                <Section title="Insights">
+                  <InsightsPanel />
+                </Section>
+              } />
+
+              <Route path="/settings" element={
+                <Section title="Settings">
+                  <SettingsPanel />
+                </Section>
+              } />
+            </Routes>
+          </AnimatePresence>
+        </main>
+      </div>
+
       <Footer />
     </div>
   );
-};
+}
+
+function App() {
+  return (
+    <AppProvider>
+      <Router>
+        <AppContent />
+      </Router>
+    </AppProvider>
+  );
+}
 
 export default App;
